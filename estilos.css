@@ -1,0 +1,62 @@
+body {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 16px 16px 20px 16px;
+  padding: 16px;
+}
+
+.tarjeta-blog {
+  background-color: #FAFAF9;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+
+.contenido-blog {
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.imagen-blog {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.etiqueta-blog {
+  font-family: 'Sora';
+  background-color: #F2EAFD;
+  color: #7C19EE;
+  font-size: 10px;
+  border-radius: 5px;
+  padding: 6px 16px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.titulo-blog {
+  font-family: 'Sora';
+  font-size: 18px;
+  color: #20293A;
+  margin: 0 0 6px 0; /* arriba, derecha, abajo, izquierda */
+}
+
+.descripcion-blog {
+  font-family: 'Sora';
+  font-size: 14px;
+  color: #394150;
+  margin: 0;
+  padding: 0 0 0 0;
+}
+
+.autor-blog {
+  font-family: 'Sora';
+  color: #394150;
+  font-size: 12px;
+  padding: 20px;
+}
